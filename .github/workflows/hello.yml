@@ -10,17 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        run:
-          echo "Hello World!"
-  date_job:
-    runs-on: ubuntu-latest
-    steps:
+        run: echo "Hello World!"
       - name: Say date
-        run:
-          date
-  ls_job:
-    runs-on: ubuntu-latest
-    steps:
+        run: date
       - name: Say ls
-        run:
-          ls
+        run: ls
